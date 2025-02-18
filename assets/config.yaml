@@ -1,0 +1,15 @@
+model:
+  name: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+  temperature: 0.7
+  max_tokens: 1000
+  num_ctx: 4096
+
+ui:
+  primary_color: "#4CAF50"
+  secondary_color: "#FFFFFF"
+  background_color: "#F5F5F5"
+  message_padding: "10px"
+  max_width: "800px"
+
+database:
+  path: "data/conversations.db"
